@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Exercice: Event
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Dans un nouveau projet React nettoyé, refait les exercices comme sur la vidéo en annexe.Chaque exercice est un component importer sur App.js
 
-## Available Scripts
+## Consignes
 
-In the project directory, you can run:
+Tout les states doivent être fait sur le fichier App.js et les fonctions aux choix
 
-### `npm start`
+### Exo1 : 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Réaliser un nombre qui s'incrémente de 1 à chaque click du button
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Exo2 : 
 
-### `npm test`
+La valeur du texte par défaut est remplacée par ce que tu mets dans l'input. L'action se déclenche à l'event key.enter
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Exo3 : 
 
-### `npm run build`
+Au copie de la valeur de l'input, une alert apparaît avec comme contenu le texte copié
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Exo4 : 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Au focus de l'input, son bg-color devient vert et à l'inverse, au dé focus, il redevient normal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Exo5 : 
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Au clique du btn, une alert apparaît
